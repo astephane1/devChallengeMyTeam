@@ -1,0 +1,332 @@
+h1 {
+    /* The creative crew */
+    position: absolute;
+    width: 278px;
+    height: 47px;
+    left: 443px;
+    top: 110px;
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+    color: #000000;
+}
+
+h5 {
+    /* Who we are */
+    position: absolute;
+    height: 27px;
+    left: 1036px;
+    top: 110px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #000000;
+}
+
+p {
+    /* We are team of creatively diverse. driven. innovative individuals working in various locations from the world. */
+    position: absolute;
+    width: 439px;
+    height: 87px;
+    left: 1036px;
+    top: 147px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
+
+#conteneur {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.element:nth-child(2)
+/* On prend le deuxième bloc élément */
+
+{
+    background-color: blue;
+    align-self: flex-end;
+    /* Seul ce bloc sera aligné à la fin */
+}
+
+.element1 {
+    /* image 13 */
+    position: absolute;
+    width: 300.81px;
+    height: 399.96px;
+    left: 318px;
+    top: 330px;
+    background: url(/img/photo1.png);
+    /*transform: matrix(-1, 0, 0, 1, 0, 0);*/
+    background-size: cover;
+}
+
+.element1 h5 {
+    /* Product owner */
+    position: absolute;
+    width: 103px;
+    height: 16px;
+    left: 270px;
+    top: 20px;
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #000000;
+    transform: rotate(90deg);
+}
+
+.element1 p {
+    /* Bill Mahoney */
+    position: absolute;
+    width: 117px;
+    height: 27px;
+    left: 0px;
+    top: 396px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.element2 {
+    /* image 14 */
+    position: absolute;
+    width: 300.81px;
+    height: 399.96px;
+    left: 734.64px;
+    top: 416px;
+    background: url(/img/photo2.png);
+    background-size: cover;
+}
+
+.element2 h5 {
+    /* Art director */
+    position: absolute;
+    width: 86px;
+    height: 16px;
+    left: 270px;
+    top: 4px;
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #000000;
+    transform: rotate(90deg);
+}
+
+.element2 p {
+    /* Saba Cabrera */
+    position: absolute;
+    width: 128px;
+    height: 27px;
+    left: 00px;
+    top: 400px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.element3 {
+    /* image 15 */
+    position: absolute;
+    width: 300.81px;
+    height: 399.96px;
+    left: 1143.54px;
+    top: 330px;
+    background: url(/img/photo3.png);
+    background-size: cover;
+}
+
+.element3 h5 {
+    /* Tech Lead */
+    position: absolute;
+    width: 67px;
+    height: 16px;
+    left: 280px;
+    top: 3px;
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #000000;
+    transform: rotate(90deg);
+}
+
+.element3 p {
+    /* Shae Le */
+    position: absolute;
+    width: 70px;
+    height: 27px;
+    left: 01px;
+    top: 396px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.element4 {
+    /* image 13 */
+    position: absolute;
+    width: 300.81px;
+    height: 399.96px;
+    left: 318px;
+    top: 966px;
+    background: url(/img/photo4.png);
+    background-size: cover;
+}
+
+.element4 p {
+    /* Skylah Lu */
+    position: absolute;
+    width: 86px;
+    height: 27px;
+    left: 2px;
+    top: 400px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.element4 h5 {
+    /* UX Designer */
+    position: absolute;
+    width: 80px;
+    height: 16px;
+    left: 280px;
+    top: 15px;
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #000000;
+    transform: rotate(90deg);
+}
+
+.element5 {
+    position: absolute;
+    width: 300.81px;
+    height: 399.96px;
+    left: 734.64px;
+    top: 1074px;
+    background: url(/img/photo5.png);
+    background-size: cover;
+}
+
+.element5 h5 {
+    /* Developer */
+    position: absolute;
+    width: 68px;
+    height: 16px;
+    left: 280px;
+    top: 4px;
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #000000;
+    transform: rotate(90deg);
+}
+
+.element5 p {
+    /* Griff Richards */
+    position: absolute;
+    width: 124px;
+    height: 27px;
+    left: 1px;
+    top: 400px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.element6 {
+    /* image 15 */
+    position: absolute;
+    width: 300.81px;
+    height: 399.96px;
+    left: 1143.54px;
+    top: 966px;
+    background: url(/img/photo6.png);
+    background-size: cover;
+}
+
+.element6 h5 {
+    /* Deverloper */
+    position: absolute;
+    width: 76px;
+    height: 16px;
+    left: 280px;
+    top: 4px;
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #000000;
+    transform: rotate(90deg);
+}
+
+.element6 p {
+    /* Stan John */
+    position: absolute;
+    width: 92px;
+    height: 27px;
+    left: 02px;
+    top: 400px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    color: #000000;
+}
